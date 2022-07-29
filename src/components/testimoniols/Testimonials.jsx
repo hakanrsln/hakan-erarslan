@@ -5,16 +5,15 @@ import AVTR2 from '../../assets/avatar2.jpg';
 import AVTR3 from '../../assets/avatar3.jpg';
 import AVTR4 from '../../assets/avatar4.jpg';
 
-// Import Swiper React components
-import { Swiper, SwiperSlide } from "swiper/react";
+// import Swiper core and required modules
+import {Pagination, Navigation } from 'swiper';
+
+import { Swiper, SwiperSlide } from 'swiper/react';
 
 // Import Swiper styles
-import "swiper/css";
-import "swiper/css/pagination";
-import "swiper/css/navigation";
+import 'swiper/css';
 
-// import required modules
-import { Autoplay, Pagination, Navigation } from "swiper";
+import 'swiper/css/pagination';
 
 
 const data = [
@@ -50,21 +49,16 @@ const Testimonials = () => {
       <h5>Review from Clients</h5>
       <h2>Testimonials</h2>
 
-      <div className="container testimonials__container">
-        <Swiper
-        spaceBetween={30}
-        centeredSlides={true}
-        autoplay={{
-          delay: 2500,
-          disableOnInteraction: false,
-        }}
-        pagination={{
-          clickable: true,
-        }}
-        /** navigation={true} */ 
-        modules={[Autoplay, Pagination, Navigation]}
-        className="mySwiper"
-        >
+      <Swiper className="container testimonials__container"
+      // install Swiper modules
+      modules={[Navigation, Pagination]}
+      spaceBetween={40}
+      slidesPerView={1}
+      navigation
+      pagination={{ clickable: true }}
+      
+      >
+       
        {
         data.map(({avatar, name, review}, index) => {
           return(
@@ -81,9 +75,9 @@ const Testimonials = () => {
           )
         })
        }
-        </Swiper>
+        
      
-      </div>
+      </Swiper>
     </section>
   )
 }
