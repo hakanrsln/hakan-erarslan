@@ -33,6 +33,12 @@ footer a {
     margin-bottom: 4rem;
 }
 
+/* icon class eklendi*/
+.footer__social-icon{
+    height: 2rem;
+    width: 2rem;
+}
+
 .footer__socials a {
     background: var(--color-bg);
     color: var(--color-white);
