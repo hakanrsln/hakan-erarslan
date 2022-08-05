@@ -2,8 +2,8 @@ import React from 'react';
 import './portfolio.css';
 import IMG1 from '../../assets/portfolio1.jpg';
 import IMG2 from '../../assets/portfolio2.jpg';
-import IMG3 from '../../assets/portfolio3.jpg';
-import IMG4 from '../../assets/portfolio4.jpg';
+import IMG3 from '../../assets/portfolio3.png';
+import IMG4 from '../../assets/portfolio4.png';
 import IMG5 from '../../assets/portfolio5.png';
 import IMG6 from '../../assets/portfolio6.jpg';
 
@@ -23,15 +23,15 @@ const data = [
   },
   { id:3,
     image:IMG3,
-    title:'Project title here',
-    github:'https://github.com',
-    demo:'https://github.com'
+    title:'Tenzies Game with React Js',
+    github:'https://github.com/hakanrsln/tenzies',
+    demo:'https://hakanrsln.github.io/tenzies/'
   },
   { id:4,
     image:IMG4,
-    title:'Project title here',
-    github:'https://github.com',
-    demo:'https://github.com'
+    title:'Single Page Portfolio',
+    github:'https://github.com/hakanrsln/simple3-wep-page',
+    demo:'https://hakanrsln.github.io/simple3-wep-page/'
   },
   { id:5,
     image:IMG5,
@@ -63,8 +63,8 @@ const Portfolio = () => {
                 </div>
                 <h3>{title}</h3>
                 <div className="portfolio__item-cta">
-                <a href={github} className='btn' target='_blank'>Github</a>
-                <a href={demo} className='btn btn-primary' target='_blank'>Live Demo</a>
+                <a href={github} className='btn' target='_blank' rel="noreferrer">Github</a>
+                <a href={demo} className='btn btn-primary' target='_blank' rel="noreferrer">Live Demo</a>
                 </div>
             </article>
               )
