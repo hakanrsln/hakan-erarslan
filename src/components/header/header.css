@@ -14,8 +14,12 @@ header{
 }
 
 .greeting {
-    margin-top: 1rem;
+    margin-top: 3rem;
 }
+.greeting-titles{
+    color: var(--color-primary);
+}
+
 
 
 /* ============CTA=========*/
@@ -92,5 +96,9 @@ padding: 4rem 0rem 0em 0rem;
     }
     .header__socials, .scroll__down {
         display: none;
+    }
+    .me {
+        width: 50%;
+        height: 30%;
     }
 }
