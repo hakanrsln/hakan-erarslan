@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/hakan-erarslan/static/css/main.08bce621.css",
+    "main.css": "/hakan-erarslan/static/css/main.6f87486e.css",
     "main.js": "/hakan-erarslan/static/js/main.281ab88a.js",
     "static/js/787.30237536.chunk.js": "/hakan-erarslan/static/js/787.30237536.chunk.js",
     "static/media/me2.png": "/hakan-erarslan/static/media/me2.750050eb797be224cb1d.png",
@@ -13,12 +13,12 @@
     "static/media/portfolio3.png": "/hakan-erarslan/static/media/portfolio3.e9f43264fbf00bdbe15a.png",
     "static/media/portfolio4.png": "/hakan-erarslan/static/media/portfolio4.8110896e98c29aa14a53.png",
     "index.html": "/hakan-erarslan/index.html",
-    "main.08bce621.css.map": "/hakan-erarslan/static/css/main.08bce621.css.map",
+    "main.6f87486e.css.map": "/hakan-erarslan/static/css/main.6f87486e.css.map",
     "main.281ab88a.js.map": "/hakan-erarslan/static/js/main.281ab88a.js.map",
     "787.30237536.chunk.js.map": "/hakan-erarslan/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.08bce621.css",
+    "static/css/main.6f87486e.css",
     "static/js/main.281ab88a.js"
   ]
 }
