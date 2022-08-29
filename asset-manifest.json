@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/hakan-erarslan/static/css/main.6f87486e.css",
-    "main.js": "/hakan-erarslan/static/js/main.281ab88a.js",
+    "main.js": "/hakan-erarslan/static/js/main.1912fabc.js",
     "static/js/787.30237536.chunk.js": "/hakan-erarslan/static/js/787.30237536.chunk.js",
     "static/media/me2.png": "/hakan-erarslan/static/media/me2.750050eb797be224cb1d.png",
     "static/media/me__about.png": "/hakan-erarslan/static/media/me__about.769d46a7b615049ed027.png",
-    "static/media/cv.pdf": "/hakan-erarslan/static/media/cv.1676dcdc83730930d888.pdf",
+    "static/media/hakan-erarslan-CV.pdf": "/hakan-erarslan/static/media/hakan-erarslan-CV.027cbe0ce678bbc97923.pdf",
     "static/media/portfolio5.png": "/hakan-erarslan/static/media/portfolio5.a82ae9a163c1ac5e3a07.png",
     "static/media/portfolio2.jpg": "/hakan-erarslan/static/media/portfolio2.ae187bc4e43ae6dbc263.jpg",
     "static/media/portfolio6.jpg": "/hakan-erarslan/static/media/portfolio6.72d1107e313049cf15a7.jpg",
@@ -14,11 +14,11 @@
     "static/media/portfolio4.png": "/hakan-erarslan/static/media/portfolio4.8110896e98c29aa14a53.png",
     "index.html": "/hakan-erarslan/index.html",
     "main.6f87486e.css.map": "/hakan-erarslan/static/css/main.6f87486e.css.map",
-    "main.281ab88a.js.map": "/hakan-erarslan/static/js/main.281ab88a.js.map",
+    "main.1912fabc.js.map": "/hakan-erarslan/static/js/main.1912fabc.js.map",
     "787.30237536.chunk.js.map": "/hakan-erarslan/static/js/787.30237536.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6f87486e.css",
-    "static/js/main.281ab88a.js"
+    "static/js/main.1912fabc.js"
   ]
 }
